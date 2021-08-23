@@ -1,0 +1,15 @@
+{
+  "name": "desafio_web_automacao",
+  "version": "1.0.0",
+  "description": "Desafio Web Automacao",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open"
+  },
+  "author": "Gabriele Wirth",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.3.0",
+    "faker": "^5.5.3"
+  }
+}
