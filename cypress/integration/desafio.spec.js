@@ -16,7 +16,7 @@ var faker = require('faker');
     var password = faker.internet.password();
 
 describe("Desafio Web", () => {
-    it("Adicionar um produto a Lista e Validar", () => {
+    it("Adicionar um produto na lista de produtos", () => {
         
         Cadastro.acessarCadastro();
         Cadastro.preencherCadastro(name, email, password);
